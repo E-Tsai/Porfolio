@@ -1,0 +1,15 @@
+.big {
+    font-size: 2em;
+}
+
+.small {
+    font-size: 0.7em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.flushright {
+    text-align: right;
+}
