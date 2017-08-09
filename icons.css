@@ -1,0 +1,91 @@
+.youtube-icon:after {
+    content: "";
+    background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3165074667,977587033&fm=27&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 15%;
+}
+
+.youtube-icon:hover:after {
+    content: "";
+    background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3165074667,977587033&fm=27&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 15%;
+    opacity: 0.8;
+}
+
+.bilibili-icon:after {
+    content: "";
+    background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2096842623,4270454066&fm=117&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 15%;
+}
+
+.bilibili-icon:hover:after {
+    content: "";
+    background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2096842623,4270454066&fm=117&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 15%;
+    opacity: 0.8;
+}
+
+.netease-icon:after {
+    content: "";
+    background-image: url("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3465058234,2431989304&fm=117&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 15%;
+}
+
+.netease-icon:hover:after {
+    content: "";
+    background-image: url("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3465058234,2431989304&fm=117&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 15%;
+    opacity: 0.8;
+}
+
+.instagram-icon:after {
+    content: "";
+    background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4123853780,4161079664&fm=117&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 15%;
+}
+
+.instagram-icon:hover:after {
+    content: "";
+    background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4123853780,4161079664&fm=117&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 15%;
+    opacity: 0.8;
+}
