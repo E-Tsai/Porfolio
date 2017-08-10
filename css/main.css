@@ -49,7 +49,7 @@ body {
 }
 
 #about {
-    padding: 100px 7% 20%;
+    padding: 100px 7% 40px;
     background-color: #2A2A2C;
     color: #DADADA;
 }
@@ -91,16 +91,11 @@ p {
 
 .interests {
     margin-left: 10%;
-    color: white;
 }
 
-.interests ul li {
+.interests li {
     list-style: none;
-    font-size: 3em;
-}
-
-.interests ul li:hover {
-    font-size: 1.9em
+    font-size: 1.8em;
 }
 
 h2 {
