@@ -1,76 +1,129 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta http-equiv="Cache-Control" content="no-transform">
-    <meta http-equiv="Cache-Control" content="no-siteapp">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&amp;subset=latin,latin-ext" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-    <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="js/anime.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-    <meta name="keywords" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <meta name="description" content="">
-    <title>Elisa Tsai's Porfolio</title>
-  </head>
-  <body>
-    <div id="nav">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#porfolio">Porfolio</a></li>
-        <li><a href="#music">Music</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-    <div id="wrapper">
-      <div id="about">
-        <hr />
-        <div id="avatar">
-          <img src="https://thumbnail0.baidupcs.com/thumbnail/ea9bb70f19d867a21aa36b081faa0d22?fid=2150558150-250528-288651464821295&time=1502330400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-LtJxQci8%2BfdTavPP1C%2BDjKcNZz8%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5136087473867554984&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video" alt="avatar" />
-          <h1>Elisa Tsai</h1>
-        </div>
-        <div>
-          <p class="big">CS undergraduate <span class="small">from USTC</span></p>
-          <p><i>mainly interested in:</i>
-            <ul class="interests">
-              <li>Game Developing</li>
-              <li>Front-end Developing</li>
-              <li>Computer Graphics</li>
-            </ul>
-          </p>
-        </div>
-        <h2>Skills</h2>
-        <hr />
-        <ul class="bars">
-        <!---->
-          <li><span>C</span> <span class="bar  animated pulse"><span class="c"></span></span></li>
-          <li><span>C++</span> <span class="bar  animated pulse"><span style="width:80%"></span></span></li>
-          <li><span>C#</span> <span class="bar  animated pulse"><span style="width:10%"></span></span></li>
-          <li><span>Java</span> <span class="bar  animated pulse"><span style="width:10%"></span></span></li>
-          <li><span>Python</span> <span class="bar  animated pulse"><span style="width:15%"></span></span></li>
-          <li><span>HTML 5</span> <span class="bar  animated pulse"><span style="width:70%"></span></span></li>
-          <li><span>CSS 3</span> <span class="bar  animated pulse"><span style="width:60%"></span></span></li>
-          <li><span>jQuery</span> <span class="bar  animated pulse"><span style="width:50%"></span></span></li>
-          <li><span>Linux</span> <span class="bar  animated pulse"><span style="width:50%"></span></span></li>
-          <li><span>Git</span> <span class="bar  animated pulse"><span style="width:80%"></span></span></li>
-        </ul>
-        <h2 class="flushright">Musician</h2>
-        <hr />
-        <p class="flushright">I play the ukulele and do covers as well as write originals, check me out:
-          <a class="youtube-icon" href="#"></a>
-          <a class="bilibili-icon" href="#"></a>
-          <a class="netease-icon" href="#"></a>
-        </p>
-        <h2>Artist</h2>
-        <hr />
-        <p>Amateur, find me on:
-          <a class="instagram-icon" href="#"></a>
-        </p>
-      </div>
-    </div>
-  </body>
-</html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>Elisa's Porfolio</title>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script>
+		$(function(){
+			$('#dowebok').fullpage({
+				sectionsColor: ['#2A2A2C', 'grey', '#2A2A2C', 'grey'],
+				continuousVertical: true
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="dowebok">
+		<div class="section">
+			<div class="wrapper">
+				<div id="about">
+					<div id="avatar">
+						<a href="http://www.etsai.site">
+							<img src="./img/glasses.png" alt="avatar" /></a>
+							<h2>Wentao Cai</h2>
+						</div>
+						<div>
+							<p class="big">CS undergraduate <span class="small">from USTC</span></p>
+							<p><i>mainly interested in:</i>
+								<ul class="interests">
+									<li>Computer Graphics</li>
+									<li>Game Developing</li>
+									<li>Front-end Developing</li>
+								</ul>
+							</p>
+						</div>
+						<h2>Skills</h2>
+						<hr />
+						<ul class="bars">
+							<!---->
+							<li><span>C</span> <span class="bar  animated pulse"><span class="c" style="width:50%"></span></span></li>
+							<li><span>C++</span> <span class="bar  animated pulse"><span style="width:80%"></span></span></li>
+							<li><span>C#</span> <span class="bar  animated pulse"><span style="width:10%"></span></span></li>
+							<li><span>Java</span> <span class="bar  animated pulse"><span style="width:10%"></span></span></li>
+							<li><span>Python</span> <span class="bar  animated pulse"><span style="width:15%"></span></span></li>
+							<li><span>HTML 5</span> <span class="bar  animated pulse"><span style="width:70%"></span></span></li>
+							<li><span>CSS 3</span> <span class="bar  animated pulse"><span style="width:60%"></span></span></li>
+							<li><span>jQuery</span> <span class="bar  animated pulse"><span style="width:50%"></span></span></li>
+							<li><span>Linux</span> <span class="bar  animated pulse"><span style="width:50%"></span></span></li>
+							<li><span>Git</span> <span class="bar  animated pulse"><span style="width:80%"></span></span></li>
+						</ul>
+						<hr />
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="wrapper">
+					<div id="music">
+						<h2 class="flushright">Musician</h2>
+						<hr />
+						<div align="center">
+							<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=35148896&auto=0&height=430"></iframe>
+							<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=35072594&auto=0&height=430"></iframe>
+							<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=35135296&auto=0&height=430"></iframe>
+						</div>
+						<hr />
+						<p class="flushright">I play the ukulele and do covers as well as write originals, check me out:
+							<a class="youtube-icon" href="https://www.youtube.com/channel/UCbbYQmf2EJ_FiPOhnCIyJQA" alt="YouTube"></a>
+							<a class="bilibili-icon" href="http://space.bilibili.com/538008/" alt="Bilibili"></a>
+							<a class="netease-icon" href="http://music.163.com/#/artist?id=12158117" alt="Netease"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class = "wrapper">
+					<div id = "paintings">
+						<h2>Artist</h2>
+						<hr />
+						<div class="box">
+							<a class="pdragon" href="https://www.instagram.com/p/BYlV7DBHK9v/" alt="On the Dragonwing"></a>
+							<a class="ppor" href="#"></a>
+							<a class="pnak" href="https://www.instagram.com/p/BXVQiyiA661" alt="Nameless"></a>
+							<a class="pcloud" href="https://www.instagram.com/p/BYBULVyHH56" alt="Sunrise on the Sea"></a>
+							<a class="pdec" href="https://www.instagram.com/p/BXcAsGcgk67" alt="Once Upon a December"></a>
+						</div>
+						<div class="box">
+							<a class="pherm" href="https://www.instagram.com/p/BYhms2enMlM" alt="Hermione"></a>
+							<a class="pgal" href="https://www.instagram.com/p/BYE95cVnXN9" alt="galaxy"></a>
+							<a class="pinu" href="#"></a>
+							<a class="pblind" href="#"></a>
+							<a class="pyukata" href="https://www.instagram.com/p/BYx5fI9HLWQ/"></a>
+						</div>
+						<div class="box">
+							<a class="pstar" href="https://www.instagram.com/p/BYQs66Un3EE" alt="stardust"></a>
+							<a class="pwed" href="https://www.instagram.com/p/BXdKfCtAewp" alt="wedding"></a>
+							<a class="pme" href="https://www.instagram.com/p/BYGGREbHxUt" alt="earrings"></a>
+							<a class="pjuth" href="https://www.instagram.com/p/BXVPCnUgOKD" alt="Juthenia"></a>
+							<a class="pflower" href="https://www.instagram.com/p/BX8CvntHNbe" alt="Egyptian Flower"></a>
+						</div>
+						<hr />
+						<p>Amateur, find me on:
+							<a class="instagram-icon" href="https://www.instagram.com/etsaidraws/"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class = "wrapper">
+					<h2 class="flushright">Contact</h2>
+					<hr />
+					<p>
+						Hi there!<br />I am Wentao Cai(Elisa Tsai)<br />currently an undergraduate student majoring in CS.<br /><br />feel free to contact: etsai042@gmail.com<br /><br /><br /><br />You can also find me on:&emsp;
+						<a class="github-icon" href="https://github.com/E-Tsai" alt="Github"></a>
+						<a class="linkedin-icon" href="https://www.linkedin.com/chatin/wnc/in/elisa-cai-8b0170142?profileId=ACoAACKNKAQBNtnHaBd-UJGyQHV_7VySkG0rFho&trk=zephyr_profile_qr_wnc" alt="Linkedin"></a>
+					</p>
+					<hr />
+					<p align="right"><i>
+						Designed with love and ♩♪music♫♬ by ETsai &emsp;<a class="favicon" href="http://www.etsai.site" target="_blank"></a>
+					</i></p>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>

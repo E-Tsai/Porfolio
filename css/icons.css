@@ -21,6 +21,73 @@
     opacity: 0.8;
 }
 
+.github-icon:after {
+    content: "";
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505105948122&di=b222c229e4efe38826c2fb8d4998df6c&imgtype=0&src=http%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fblack%2Fgithub-11-xxl.png");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.github-icon:hover:after {
+    content: "";
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505105948122&di=b222c229e4efe38826c2fb8d4998df6c&imgtype=0&src=http%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fblack%2Fgithub-11-xxl.png");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.linkedin-icon:after {
+    content: "";
+    background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=821161392,1674806229&fm=27&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.linkedin-icon:hover:after {
+    content: "";
+    background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=821161392,1674806229&fm=27&gp=0.jpg");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.favicon:after {
+    content: "";
+    background-image: url("https://thumbnail0.baidupcs.com/thumbnail/79197ae087ee9027489c288a4bfe9e64?fid=2150558150-250528-1124475240198844&time=1505095200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-IkcNhz1IhaoTfPWQrtvCnpGffVo%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5878154836014782062&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.favicon:hover:after {
+    content: "";
+    background-image: url("https://thumbnail0.baidupcs.com/thumbnail/79197ae087ee9027489c288a4bfe9e64?fid=2150558150-250528-1124475240198844&time=1505095200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-IkcNhz1IhaoTfPWQrtvCnpGffVo%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5878154836014782062&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video");
+    background-size: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
 .bilibili-icon:after {
     content: "";
     background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2096842623,4270454066&fm=117&gp=0.jpg");
