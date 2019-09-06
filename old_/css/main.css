@@ -1,0 +1,97 @@
+@import 'basic.css';
+@import 'icons.css';
+@import 'pics.css';
+@import 'bar.css';
+@import 'jquery.fullPage.css';
+body {
+    background-color: #B7B7B7;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 1080px;
+    /*padding: 0;*/
+    margin: 0 auto;
+}
+
+#about {
+    /*background-color: #2A2A2C;*/
+    color: #DADADA;
+}
+
+#paintings {
+    background-color: #2A2A2C;
+    color: #DADADA;
+}
+
+#about hr {
+    height: 10px;
+    margin: 0 0 20px;
+    border: none;
+    background-color: grey;
+}
+
+#paintings hr{
+    height: 10px;
+    margin: 0 0 20px;
+    border: none;
+    background-color: grey;
+}
+
+.box{
+    float:center;
+}
+
+.box img{
+    width:180px;
+    padding:10px;
+}
+
+
+hr {
+    height: 10px;
+    margin: 0 0 20px;
+    border: none;
+    background-color: #2A2A2C;
+}
+
+#avatar {
+    float: right;
+    margin: 30px 10%;
+}
+
+#avatar h1 {
+    float: clear;
+    text-align: center;
+}
+
+#avatar img {
+    border-style: solid;
+    border-color: grey;
+    border-width: 5px;
+    width: 160px;
+    height: 160px;
+    border-radius: 80%;
+    transition: 2s;
+}
+
+#avatar img:hover {
+    transform: scale(1.1,1.1);
+}
+
+p {
+    margin: 1.5em 10px;
+}
+
+.interests {
+    margin-left: 10%;
+}
+
+.interests li {
+    list-style: none;
+    font-size: 1.8em;
+}
+
+h2 {
+    margin: 10px 5% 10px;
+}

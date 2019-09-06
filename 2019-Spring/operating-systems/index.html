@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>os Q&A</title>
+  <link rel="stylesheet" href="dist/markdown.css">
+  <link rel="stylesheet" href="dist/post.css">
+  <link rel="shortcut icon" href="favicon.ico"> 
+  <style>
+    html {
+      box-sizing: border-box;
+      font-size: 20px;
+      line-height: 1.5;
+      -webkit-tap-highlight-color: transparent;
+    }
+    body {
+      background: #f8f8f8;
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+      margin: 0;
+      padding: 60px 0;
+    }
+    
+    .docs-container {
+      background: #fff;
+      box-shadow: 0 1px 4px rgba(32, 32, 32, .05);
+      display: block;
+      margin: 0 auto;
+      max-width: 960px;
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .docs-brand {
+      padding: 20px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .docs-brand a {
+      color: #c7c7c7;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .docs-brand a:focus,
+    .docs-brand a:hover {
+      color: #a1a1a1;
+    }
+
+    .docs-footer {
+      color: #c7c7c7;
+      font-size: 14px;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    .docs-footer a {
+      color: #a1a1a1;
+    }
+
+    .docs-footer a:focus,
+    .docs-footer a:hover {
+      color: #878787;
+    }
+
+    .docs-ad {
+      background: #f8f9fa;
+      border-radius: .1rem;
+      display: block;
+      margin: 2rem 0;
+      padding: .4rem;
+      position: relative;
+    }
+
+    .docs-ad ins {
+      line-height: 1;
+      vertical-align: middle;
+    }
+
+    .docs-ad .carbon-wrap .carbon-img {
+      display: block;
+    }
+
+    .docs-ad .carbon-wrap .carbon-text {
+      color: #727e96;
+      display: block;
+      font-size: .7rem;
+    }
+
+    .docs-ad .carbon-poweredby {
+      color: #acb3c2;
+      font-size: .6rem;
+    }
+
+    @media (min-width: 1366px) {
+      .docs-ad.docs-ad-sidebar {
+        bottom: 1rem;
+        margin: 0;
+        position: fixed;
+        right: 1rem;
+        width: 7.3rem;
+      }
+    }
+
+    @media screen and (min-width: 600px) {
+      .markdown-css {
+        padding: 24px 40px;
+      }
+    }
+    @media screen and (min-width: 840px) {
+      .markdown-css {
+        padding: 32px 80px;
+      }
+    }
+    @media screen and (min-width: 960px) {
+      .markdown-css {
+        padding: 40px 140px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="docs-container">
+    
+    <article class="post markdown-css">
+      <div class="post-header">
+        <h1>操作系统实验</h1>
+      </div>
+      <div class="post-body">
+        <h2>写在最前面</h2>
+        <p>欢迎着手操作系统实验！我们了解这可能是大家第一次接触这样的实验，所以为大家准备了一些资料。每一个实验的标题下会附上：</p>
+        <ul>
+          <li>我们认为大家需要了解的概念。</li>
+          <li>大家提出的问题的Q&A</li>
+        </ul>
+        <p>在这里也推荐一本书： 《Orange’s : 一个操作系统的实现》 ， 这本书使用的是intel语法的汇编，非常详细地讲述了如何从一个启动盘写到一个具有进程调度、内存管理、文件系统、输入输出系统和进程间通信功能的os。书后附有代码，即使只是阅读代码也能有很多收获。</p>
+        <p>(google is always your friend :-D)</p>
+        <h2>任务管理和FCFS调度</h2>
+        <h3>BIOS是什么</h3>
+        <ul>
+          <li><a href="https://zh.wikipedia.org/zh-sg/BIOS" target="_blank">BIOS是什么</a> </li>
+          <li><a href="https://en.wikipedia.org/wiki/INT_10H" target="_blank">BIOS中断</a> </li>
+          
+        </ul>
+      </div>  
+        
+    </article>
+  </div>
+
+  <footer class="docs-footer">
+    <p><a href="https://github.com/picturepan2/markdown.css" target="_blank">GitHub</a> | <a href="https://twitter.com/picturepan2" target="_blank">Twitter</a> | <a href="https://www.paypal.me/picturepan2" target="_blank">PayPal Donate</a></p>
+    <p>Designed and built with ♥ by <a href="https://twitter.com/picturepan2" target="_blank">Yan Zhu</a>. Licensed under the <a href="https://github.com/picturepan2/spectre/blob/master/LICENSE" target="_blank">MIT License</a>.</p>
+  </footer>
+
+  <!-- Google Analytics tracking code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-2702768-8', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

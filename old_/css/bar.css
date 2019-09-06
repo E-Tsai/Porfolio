@@ -1,0 +1,69 @@
+.bars {
+    column-count: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF;
+    text-shadow:5px 2px 6px #000;
+}
+
+.bars li {
+    padding: 30px;
+    list-style: none;
+}
+
+.bars span {
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+.bars span.bar {
+    display: block;
+    float: left;
+    position: relative;
+    top: 0.4em;
+    width: 70%;
+    background-color: black;
+    height: 0.08em;
+    border: none;
+    -webkit-border-radius: 20%;  
+}
+
+.bars span.bar span {
+    display: block;
+    float: left;
+    height: 100%;
+    margin: 0;
+    background-color: #9FD0FF;
+    box-shadow: 0 0 10px 3px rgba(0, 198, 255, 0.4);
+    -webkit-border-radius: 20%;  
+    -webkit-transition: width 2s ease-in-out;
+}
+
+.c           { width:70%;  -moz-animation:c 2s ease-out;           -webkit-animation:c 2s ease-out;     }
+.cpp         { width:80%;  -moz-animation:cpp 2s ease-out;         -webkit-animation:cpp 2s ease-out;   }
+
+.csharp      { width:10%;  -moz-animation:csharp 2s ease-out;      -webkit-animation:csharp 2s ease-out;}
+.java        { width:10%;  -moz-animation:javajava 2s ease-out;    -webkit-animation:java 2s ease-out;  }
+.python      { width:15%;  -moz-animation:python 2s ease-out;      -webkit-animation:python 2s ease-out;}
+
+
+.html5       { width:70%;  -moz-animation:html5 2s ease-out;       -webkit-animation:html5 2s ease-out; }
+.css3        { width:60%;  -moz-animation:css3 2s ease-out;        -webkit-animation:css3 2s ease-out;  }
+.jquery      { width:50%;  -moz-animation:jquery 2s ease-out;      -webkit-animation:jquery 2s ease-out;}
+.linux       { width:50%;  -moz-animation:linux 2s ease-out;       -webkit-animation:linux 2s ease-out; }
+.git         { width:80%; -moz-animation:git 2s ease-out;          -webkit-animation:git 2s ease-out;   }
+
+@-moz-keyframes c           { 0%  { width:0px;} 100%{ width:70%;}   }
+@-moz-keyframes cpp         { 0%  { width:0px;} 100%{ width:80%;}   }
+@-moz-keyframes csharp      { 0%  { width:0px;} 100%{ width:10%;}   }
+@-moz-keyframes java        { 0%  { width:0px;} 100%{ width:10%;}   }
+@-moz-keyframes python      { 0%  { width:0px;} 100%{ width:40%;}   }
+
+
+
+@-moz-keyframes html5       { 0%  { width:0px;} 100%{ width:60%;}  }
+@-moz-keyframes css3        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:50%;}  }
+@-moz-keyframes linux       { 0%  { width:0px;} 100%{ width:10%;}  }
+@-moz-keyframes git         { 0%  { width:0px;} 100%{ width:100%;} }
+

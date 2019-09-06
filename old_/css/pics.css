@@ -1,0 +1,164 @@
+.pcloud{
+    content: "";
+    background-image: url("http://file.0x01.me/64759f48d3f112e9644f5b261fd8283f4ff91582/clouds.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 125px;
+    width: 190px;
+}
+
+.pdragon{
+    content: "";
+    background-image: url("http://file.0x01.me/4d0a932933a25fd5168e3c4b4f8c6cd74f9f68df/On_the_Dragonwing.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 125px;
+    width: 190px;
+}
+
+.pnak{
+    content: "";
+    background-image: url("http://file.0x01.me/5e20b073be63dc8a8f29a0188cd0887a778d80ca/nameless.JPG?type=image/jpeg");
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 125px;
+    width: 190px;
+}
+
+.ppor{
+    content: "";
+    background-image: url("http://file.0x01.me/e287354b599640205b30abc26b18516218a3a944/portrait.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 125px;
+    width: 190px;
+}
+
+.pdec{
+    content: "";
+    background-image: url("http://file.0x01.me/412b8f8f90e22807de7534d8c54662237a5f4167/Mountains.png?type=image/png");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 125px;
+    width: 190px;
+}
+
+.pgal{
+    content: "";
+    background-image: url("http://file.0x01.me/88900869d943d6011da425e1a5ea267a30a0dde3/galaxy.jpg?type=image/jpeg");
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 160px;
+    width: 190px;
+}
+
+.pwed{
+    content: "";
+    background-image: url("http://file.0x01.me/7042b2f4c36c1662c24b801aa547d87c8fcc0707/wedding.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 250px;
+    width: 190px;
+}
+
+.pstar{
+    content: "";
+    background-image: url("http://file.0x01.me/cc2cd0d77ce792d23da77f2730e579a591b5035e/drolma.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 250px;
+    width: 190px;
+}
+
+.pme{
+    content: "";
+    background-image: url("http://file.0x01.me/d753598e5c0d776b266edd98ba1926a063e1c3c4/me.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 250px;
+    width: 190px;
+}
+
+.pjuth{
+    content: "";
+    background-image: url("http://file.0x01.me/6c5db5f6daaf6a94ce5f98004811c7f23487d1ac/juthenia.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 250px;
+    width: 190px;
+}
+
+.pflower{
+    content: "";
+    background-image: url("http://file.0x01.me/ba99adcaa8028244631f462c7c715a1d5574910e/flower.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 250px;
+    width: 190px;
+}
+
+.pherm{
+    content: "";
+    background-image: url("http://file.0x01.me/838e00e322aff693c5e5d334b921d2c18726b356/hermione.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 160px;
+    width: 190px;
+}
+
+.pblind{
+    content: "";
+    background-image: url("http://file.0x01.me/15982352bb04aae18dff4ae1b064e153ad38fca1/eye.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 160px;
+    width: 190px;
+}
+
+.pinu{
+    content: "";
+    background-image: url("http://file.0x01.me/0e311d1c3384644e888d97c08ad8c80301a6eb30/inuyasha.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:190px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 160px;
+    width: 190px;
+}
+
+.pyukata{
+    content: "";
+    background-image: url("http://file.0x01.me/66627aa378c33f0ef63272b29c3e98f95178f11c/yukata.jpg?type=image/jpeg");
+    /*border-radius: 15%;*/
+    background-size:180px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 160px;
+    width: 190px;
+}
+
+
